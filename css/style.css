@@ -15,7 +15,7 @@ header{
     text-align: center;
 }
 .pede{
-    padding-top: 10%;
+    padding-top: 7%;
     margin-bottom: -52%;
 }
 section{
@@ -111,21 +111,21 @@ footer{
 
 /* Image */
 #logo{
-    width: 270px;
-    height: 300px;
+    width: 400px;
+    height: 430px;
 
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: static;
 }
-.tf{
+/* .tf{
     height: 200px;
-    width: 600px;
+    width: 700px;
     margin-left: 20%;
     margin-top: 5%;
     position: absolute;
-}
+} */
 .folha{
     width: 110px;
     height: 125px;
@@ -135,6 +135,12 @@ footer{
     width: 125px;
     height: 125px;
     margin: auto;
+}
+.vomito{
+    width:200px ;
+    height:200px ;
+    padding-left: 10px;
+    padding-top: 20px;
 }
 .cute{
     height: 200px;
@@ -180,6 +186,14 @@ body{
     text-align: center;
     font-size: 64px;
 }
+.parag{
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+    box-shadow: 0px 0px 15px 9px #4B7C3C;
+    border: 3px inset #000;
+}
+
 /* responsividade */
 @media only screen and (max-width: 440px){
     .arruma{
@@ -245,9 +259,11 @@ body{
         width: 100%;
     }
     .textocor{
-        background-color: #89BE79;
-        width: 100%;
-
+        width: 95%;
+        margin-left: 2%;
+        text-align: justify;
+        box-shadow: 0px 0px 15px 9px #4B7C3C;
+        border: 2px solid #000;
     }
     #esconde{
         top: 0%;
@@ -257,13 +273,18 @@ body{
         height: 100%;
         background-color: #fff;
     }
+    .vomito{
+        width:150px ;
+        height:150px ;
+        padding-left: 10px;
+    }
 }
 @media only screen and (min-width: 460px){
     .tf{
         height: 200px;
-        width: 600px;
-        margin-left: -2%;
-        margin-top: 5%;
+        width: 800px;
+        margin-left: 5%;
+        margin-top: -3%;
         position: static;
     }
     .legal{
@@ -277,7 +298,8 @@ body{
         text-align: justify;
         margin: 0px 25%;
         box-shadow: 0px 0px 15px 9px #4B7C3C;
-        border: 1px dashed #000;
+        border: 3px inset #000;
+        padding: 20px 20px 20px 20px;
     }
     .textocor{
         margin-left: 31.5%;
